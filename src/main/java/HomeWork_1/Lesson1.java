@@ -1,3 +1,4 @@
+//Glazyrin
 package HomeWork_1;
 
 import java.util.Random;
