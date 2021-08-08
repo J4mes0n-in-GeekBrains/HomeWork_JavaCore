@@ -1,5 +1,5 @@
 package HomeWork_2;
-
+\\Glazyrin
 public class MyArraySizeException extends Exception {
 //    MyArraySizeException(String msg) {
 //        super(msg);
