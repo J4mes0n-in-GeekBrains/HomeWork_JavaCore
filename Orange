@@ -1,5 +1,5 @@
 package HomeWork_3;
-
+//Glazyrin
 public class Orange extends Fruit {
     @Override
     float getWeight() {
