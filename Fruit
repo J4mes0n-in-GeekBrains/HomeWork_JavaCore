@@ -1,5 +1,5 @@
 package HomeWork_3;
-
+//Glazyrin
 public abstract class Fruit {
     abstract float getWeight();
 }
