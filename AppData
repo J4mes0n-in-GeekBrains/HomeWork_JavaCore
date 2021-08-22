@@ -1,0 +1,40 @@
+package HomeWork_5;
+
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class AppData {
+    public static void main(String[] args) {
+        generateCsvFile("d:\\test_file.csv");
+    }
+
+    private static void generateCsvFile(String sFileName) {
+        try {
+            FileWriter writer = new FileWriter(sFileName);
+
+            writer.append("Name");
+            writer.append(';');
+            writer.append("Georg");
+            writer.append('\n');
+
+            writer.append("Age");
+            writer.append(';');
+            writer.append("35");
+            writer.append('\n');
+
+            writer.append("City");
+            writer.append(';');
+            writer.append("Moscow");
+            writer.append('\n');
+
+
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    }
+
