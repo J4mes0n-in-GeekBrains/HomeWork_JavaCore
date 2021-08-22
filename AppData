@@ -1,5 +1,5 @@
 package HomeWork_5;
-
+//Glazyrin
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FileWriter;
